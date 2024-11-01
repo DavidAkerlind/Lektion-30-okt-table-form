@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student-registration</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <h2>Student-registration</h2>
+            <form class="form">
+                <fieldset class="form-inner">
+                    <legend>Student information</legend>
+                    <input
+                        type="text"
+                        class="form-input span-two"
+                        placeholder="First Name" />
+                    <input
+                        type="text"
+                        class="form-input span-two"
+                        placeholder="Last Name " />
+                    <input
+                        type="number"
+                        class="form-input span-two"
+                        placeholder="Birth Date (yyyymmdd)" />
+                    <input
+                        type="email"
+                        class="form-input span-three"
+                        placeholder="Email Address" />
+                    <input
+                        type="number"
+                        class="form-input span-three"
+                        placeholder="Phone Number" />
+                </fieldset>
+                <fieldset class="form-inner">
+                    <legend>Address information</legend>
+                    <input
+                        type="text"
+                        class="form-input span-six"
+                        placeholder="Street Address" />
+                    <input
+                        type="text"
+                        class="form-input span-three"
+                        placeholder="City" />
+                    <input
+                        type="text"
+                        class="form-input span-three"
+                        placeholder="State/Province " />
+                    <input
+                        type="text"
+                        class="form-input span-three"
+                        placeholder="Country" />
+                    <input
+                        type="number"
+                        class="form-input span-three"
+                        placeholder="ZIP Code" />
+                </fieldset>
+                <fieldset class="form-inner">
+                    <legend>Account Settings</legend>
+                    <input
+                        class="form-input span-three"
+                        type="text"
+                        placeholder="Student ID" />
+                    <select
+                        class="form-select span-three"
+                        name="accountType"
+                        id="accountType">
+                        <option value="">-- Select Option --</option>
+                        <option value="Permanent">Permanent</option>
+                        <option value="Temporary">Temporary</option>
+                    </select>
+                    <input
+                        class="form-input span-three"
+                        type="password"
+                        placeholder="Password" />
+                    <input
+                        class="form-input span-three"
+                        type="password"
+                        placeholder="Password Again" />
+                </fieldset>
+                <button class="button">Register Account</button>
+            </form>
+        </div>
+    </body>
+</html>

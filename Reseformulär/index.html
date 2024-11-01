@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reseformulär</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="form-wrapper">
+            <h1>ÅKA TÅG</h1>
+            <div class="trip-info">
+                <div class="trip-from">STOCKHOLM</div>
+                <span class="arrow">→</span>
+                <div class="trip-to">GÖTEBORG</div>
+            </div>
+            <fieldset class="form-inner">
+                <form class="form-radio">
+                    <label>
+                        <input
+                            class="radio-class"
+                            type="radio"
+                            name="class"
+                            value="1a:klass" />1a:klass</label
+                    >
+                    <label>
+                        <input
+                            class="radio-class"
+                            type="radio"
+                            name="class"
+                            value="2a:klass" />2a:klass</label
+                    >
+                </form>
+            </fieldset>
+            <fieldset class="form-inner">
+                <form class="form-select-tickets">
+                    <label>
+                        Antal biljetter
+                        <select name="ticketAmount" id="ticketAmount">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </label>
+                    <label>
+                        Titel
+                        <select name="titleName" id="titleName">
+                            <option value="Ms.">Ms.</option>
+                            <option value="Mr.">Mr.</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </label>
+                </form>
+            </fieldset>
+            <fieldset class="form-inner">
+                <form class="form-input">
+                    <label
+                        >Förnamn<input type="text" placeholder="Greta" value=""
+                    /></label>
+                    <label
+                        >Efternamn<input
+                            type="text"
+                            placeholder="Thunberg"
+                            value=""
+                    /></label>
+                </form>
+            </fieldset>
+            <fieldset class="form-inner">
+                <form class="form-checkbox">
+                    <label><input type="checkbox" />Godkänner villkoren</label>
+                </form>
+            </fieldset>
+            <button class="submit">Boka biljetter</button>
+        </div>
+    </body>
+</html>

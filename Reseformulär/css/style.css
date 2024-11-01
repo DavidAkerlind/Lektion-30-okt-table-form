@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+body {
+    font-family: "PT Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.form-wrapper {
+    width: 300px;
+
+    border: 1px solid #ccc;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Gotham", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #cecece;
+    margin: 0;
+}
+
+.trip-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    font-weight: bold;
+
+    .trip-from {
+        background-color: #e2e2e2;
+        padding: 1rem 2rem;
+    }
+    .trip-to {
+        background-color: #ececec;
+        padding: 1rem 2rem;
+    }
+    .arrow {
+        font-size: 20px;
+        grid-column: ;
+    }
+}
+
+.form-radio,
+form {
+    display: flex;
+    justify-content: space-around;
+
+    color: #000;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #333;
+}
